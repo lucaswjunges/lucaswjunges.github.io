@@ -658,6 +658,10 @@ section {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
 }
 
+.internship-tag {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
 .project-image {
     position: relative;
     height: 300px;
@@ -685,6 +689,14 @@ section {
 
 .image-placeholder.iot {
     background: linear-gradient(135deg, #10b981, #06b6d4);
+}
+
+.image-placeholder.edge {
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+}
+
+.image-placeholder.devops {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
 }
 
 .image-placeholder i {
