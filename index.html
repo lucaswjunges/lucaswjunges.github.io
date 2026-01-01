@@ -615,6 +615,84 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Project 6: Industrial HMI for Rebar Bending Machine -->
+                <div class="project-card">
+                    <div class="project-tag production-tag">Production System</div>
+                    <div class="project-image">
+                        <div class="image-placeholder industrial">
+                            <i class="fas fa-industry"></i>
+                            <span>Industrial HMI</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web-Based HMI for Industrial Hydraulic Rebar Bending Machine</h3>
+                        <p class="project-description">
+                            Complete industrial modernization project replacing a damaged physical HMI panel (Atos MPC4004 PLC)
+                            with a modern web-based interface running on Raspberry Pi 3B+. Real-time Modbus RTU communication with
+                            400 PPR encoder control for precision bending operations (NEOCOUDE-HD-15 machine - 15 HP, up to 50mm diameter).
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-clock"></i>
+                                <span>Latency: <strong>< 50ms</strong></span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Poll Rate: <strong>4 Hz</strong></span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-crosshairs"></i>
+                                <span>Precision: <strong>±0.9°</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="project-highlights">
+                            <h4><i class="fas fa-cog"></i> Technical Implementation</h4>
+                            <ul>
+                                <li><strong>Architecture:</strong> Python asyncio server + WebSocket real-time communication</li>
+                                <li><strong>Industrial Protocol:</strong> Modbus RTU @ 57600 baud (RS485 interface)</li>
+                                <li><strong>Encoder Integration:</strong> 400 PPR incremental encoder with 32-bit position tracking</li>
+                                <li><strong>Auto-Calibration:</strong> 7-step intelligent calibration system (sensor mapping + ballistic inertia)</li>
+                                <li><strong>State Machine:</strong> 8-state control logic (IDLE, BENDING, RETURNING, CALIBRATION, etc.)</li>
+                                <li><strong>WiFi Manager:</strong> Dual-mode (AP + STA) with Tailscale VPN for remote access</li>
+                                <li><strong>Hardware:</strong> Raspberry Pi 3B+ with USB-RS485 converter (FTDI/CH340)</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Business Impact</h4>
+                            <p>Avoided costly HMI panel replacement (€2000+) while modernizing the system with remote monitoring,
+                            automatic calibration, and production tracking. Tablet-based interface improves operator ergonomics
+                            and enables predictive maintenance through data logging.</p>
+                        </div>
+
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">asyncio</span>
+                            <span class="tag">WebSocket</span>
+                            <span class="tag">Modbus RTU</span>
+                            <span class="tag">RS485</span>
+                            <span class="tag">Raspberry Pi</span>
+                            <span class="tag">Industrial IoT</span>
+                            <span class="tag">PLC Integration</span>
+                            <span class="tag">Encoder Control</span>
+                            <span class="tag">HTML5/CSS3</span>
+                            <span class="tag">WiFi Manager</span>
+                            <span class="tag">Tailscale VPN</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/lucaswjunges/ihm-dobradeira-neocoude" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                            <a href="https://github.com/lucaswjunges/ihm-dobradeira-neocoude/blob/master/README.md" target="_blank" class="project-link">
+                                <i class="fas fa-book"></i> Full Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
