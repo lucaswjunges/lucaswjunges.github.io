@@ -227,6 +227,6 @@ function throttle(func, limit) {
 
 // ==================== CONSOLE MESSAGE ====================
 console.log('%cLucas William Junges', 'font-size: 24px; font-weight: bold; color: #2563eb;');
-console.log('%cControl & Automation Engineer | Industrial AI Specialist', 'font-size: 14px; color: #10b981;');
-console.log('%c🇪🇺 EU Work Authorization | 🎓 UFSC Graduate', 'font-size: 12px;');
-console.log('%cInterested in hiring? Email: lucaswilliamjunges@gmail.com', 'font-size: 12px; font-style: italic;');
+console.log('%cAutomation & Machine Learning Engineer | B2B Remote Contractor', 'font-size: 14px; color: #10b981;');
+console.log('%c🇧🇷 CNPJ 53.700.754/0001-10 | 🇮🇹 Italian Passport | W-8BEN-E Ready', 'font-size: 12px;');
+console.log('%cLooking to contract? Email: lucasw.junges@hotmail.com', 'font-size: 12px; font-style: italic;');
