@@ -263,10 +263,10 @@
                         <h3>Detecção preditiva de falhas em motores de indução — TCC</h3>
                         <p class="desc">
                             Câmeras térmicas e redes convolucionais para pegar falhas em motores trifásicos antes
-                            de pararem uma linha. MobileNetV2 com transfer learning chegou a 0,912 de ROC AUC em um
-                            dataset próprio de termografia; mapas Grad-CAM mostram à manutenção <em>onde</em> o
-                            modelo está olhando. Deploy em NVIDIA Jetson Xavier com OPC UA e MQTT para integração
-                            com SCADA.
+                            de pararem uma linha. MobileNetV2 com transfer learning, treinada em 369 imagens termográficas, chegou a 80% de
+                            acurácia em cinco classes de falha; os mapas Grad-CAM mostram à manutenção <em>onde</em> o
+                            modelo está olhando. Inferência de 25–30 ms por imagem num NVIDIA Jetson Xavier NX, com OPC UA e MQTT
+                            implementados para integração com SCADA.
                         </p>
                         <p class="refs">
                             <a href="https://repositorio.ufsc.br/handle/123456789/271512">Repositório UFSC</a>
